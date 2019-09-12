@@ -1,5 +1,5 @@
 # lab_1
-TPurpose: Review how to do the following in C++:
+Purpose: Review how to do the following in C++:
 
 Read parameters from the command-line
 Manipulate a few variables
@@ -17,7 +17,8 @@ Your program should have the following functionality:
 Sunday Take a nap
 Tuesday Go to class
 Thursday Complete Lab 1
-To update your TODO list, you’ll need to develop the ability to read in this file, store it in a class object, and then to overwrite the contents of the file with the modified TODO list.  To practice interface inheritance using abstract classes, you should implement the abstract class TodoListInterface.h (click to retrieve).  This means that you’ll create the files TodoList.h and TodoList.cpp that implement the abstract class defined by TodoListInterface.hPreview the document.
+
+To update your TODO list, you’ll need to develop the ability to read in this file, store it in a class object, and then to overwrite the contents of the file with the modified TODO list.  To practice interface inheritance using abstract classes, you should implement the abstract class TodoListInterface.h.  This means that you’ll create the files TodoList.h and TodoList.cpp that implement the abstract class defined by TodoListInterface.h.
 
  
 
