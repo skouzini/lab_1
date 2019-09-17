@@ -1,12 +1,15 @@
 #include <iostream>
 #include <string>
 #include <fstream>
+#include "TodoListInterface.h"
+#include "TodoList.h"
 
 using namespace std;
 
 int main(int argc, char const *argv[]) {
     
     //read in todo.txt
+    
     
     //add task to todo.txt
         //./TODO add [date] [task]
