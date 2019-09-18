@@ -73,3 +73,4 @@ We'll be grading this assignment together in class.  We'll score it as follows:
 +20 points: If your program correctly prints out a specific day's TODO list when printDay is specified
 +20 points: If your program still works when you replace your main.cpp file with somebody else's.
 Of course, if your program isn't perfect when we grade it in class, you'll have the chance to fix up whatever isn't quite right with it and re-grade it.  The points are intended solely to guide you in what to do and make sure you know, rather that to judge your eternal worth
+asdf
