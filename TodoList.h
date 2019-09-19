@@ -3,6 +3,7 @@
 
 #include <iostream>
 #include <string>
+#include <fstream>
 
 #include "TodoListInterface.h"
 
@@ -10,8 +11,8 @@ using namespace std;
 
 class TodoList : public TodoListInterface {
 public:
-    TodoList() {}
-    ~TodoList() {}
+    TodoList();
+    ~TodoList();
 
     /*
     *   Adds an item to the todo list with the data specified by the string "_duedate" and the task specified by "_task"
@@ -23,7 +24,7 @@ public:
     *
     *   Returns 1 if it removes an item, 0 otherwise
     */
-    int remove(string _task);
+    int removeTask(string _task);
 
     /*
     *   Prints out the full todo list to the console
@@ -34,6 +35,15 @@ public:
     *   Prints out all items of a todo list with a particular due date (specified by _duedate)
     */
     void printDaysTasks(string _date);
+    
+    private:
+    string duedate;
+    string task;
+    ofstream outFile;
+    ofstream temp;
+    ifstream inFile;
+    string tempLine;
+
 };
 
 #endif

@@ -13,7 +13,7 @@ public:
 
     virtual void add(string _duedate, string _task) = 0;
 
-    virtual int remove(string _task) = 0;
+    virtual int removeTask(string _task) = 0;
 
     virtual void printTodoList() = 0;
 
